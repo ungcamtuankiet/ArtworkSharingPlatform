@@ -1,0 +1,29 @@
+.avatar-dropdown {
+  position: relative;
+  z-index: 2;
+}
+
+.avatar-dropdown .avatar {
+  cursor: pointer;
+}
+
+.avatar-dropdown .dropdown {
+  background-color: white;
+  padding: 4px;
+  width: 160px;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 0 3px 20px 0 rgb(221 209 209 / 20%),
+    0 3px 20px 0 rgba(83, 72, 72, 0.19);
+  left: -45px;
+}
+
+.avatar-dropdown .dropdown li {
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+}
+
+.avatar-dropdown .dropdown li:hover {
+  background-color: #d8eaff;
+}

@@ -1,0 +1,28 @@
+.liOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99px;
+}
+
+.liOrder #div1 {
+  width: 90%;
+  height: 85%;
+  margin-top: 10px;
+}
+
+.liOrder img {
+  width: 32px;
+  height: 32px;
+}
+
+.liOrder span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.liOrder section p {
+  margin: 15px 0 0 0 ;
+  color: rgb(168, 161, 161);
+  font-weight: 600;
+}

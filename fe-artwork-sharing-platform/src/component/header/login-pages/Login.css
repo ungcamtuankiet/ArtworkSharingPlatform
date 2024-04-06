@@ -1,0 +1,111 @@
+.loginPage {
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.logoLogin {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logoLogin img {
+  max-width: 100px;
+  height: auto;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+h6 {
+  text-align: center;
+}
+.group {
+  position: relative;
+  /* background-color: #eee; */
+  border: none;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+  display: inline-block;
+}
+
+/* .group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+} */
+
+.group button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.recoveryPage {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.recoveryPage a {
+  text-decoration: none;
+  color: #512da8;
+  font-size: 12px;
+}
+
+.signIn button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #512da8;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.signUp-lg {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signUp-lg h6 {
+  font-size: 14px;
+  margin: 0 10px 10px 0; /* Điều chỉnh lề phía dưới và bên phải */
+  display: inline-block; /* Hiển thị trên cùng một dòng */
+}
+
+.signUp-lg button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #512da8;
+  font-weight: bold;
+  cursor: pointer;
+}

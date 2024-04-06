@@ -1,0 +1,25 @@
+.table {
+  max-height: 445px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.table table{
+  table-layout: fixed;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+.table table tbody td .sold {
+  color: rgb(179, 164, 164);
+} 

@@ -1,0 +1,113 @@
+.regisPage {
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 130vh;
+
+}
+
+.register {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.logoRegis {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logoRegis img {
+  max-width: 100px;
+  height: auto;
+}
+
+h6 {
+  text-align: center;
+}
+
+.group-regis {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.group-left,
+.group-right {
+  width: 48%;
+}
+
+.group-i {
+  position: relative;
+  /* background-color: #eee; */
+  border: none;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+}
+
+.group-i input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.group-i button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.Error {
+  margin-bottom: 20px;
+}
+
+.Error p {
+  color: #e79494;
+  margin: 0;
+}
+.signUp button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #512da8;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.loginIn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.loginIn h6 {
+  font-size: 14px;
+  margin: 0 10px 10px 0; /* Điều chỉnh lề phía dưới và bên phải */
+  display: inline-block; /* Hiển thị trên cùng một dòng */
+}
+
+.loginIn button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #512da8;
+  font-weight: bold;
+  cursor: pointer;
+}

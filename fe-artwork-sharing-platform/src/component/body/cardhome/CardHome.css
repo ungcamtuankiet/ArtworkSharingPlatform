@@ -1,0 +1,20 @@
+.cardHome {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  box-shadow: 3px 4px 2px 2px rgba(0, 0, 0, 0.1),
+    3px 6px 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+.cardHome .cardImg {
+  margin-bottom: 10px;
+}
+
+.cardHome .cardImg img {
+  height: 100%;
+}
+
+.cardHome .cardInfor {
+  display: flex;
+  justify-content: space-around;
+}

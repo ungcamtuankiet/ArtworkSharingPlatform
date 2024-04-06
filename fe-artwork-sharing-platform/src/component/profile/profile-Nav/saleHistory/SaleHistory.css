@@ -1,0 +1,27 @@
+.table-sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.table-sale table {
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-sale table th td {
+  text-align: center;
+}
+
+.table-sale table td {
+    background-color: white;
+  }
+
+.table-sale table tbody td img {
+    width: auto;
+    height: 70px;
+}

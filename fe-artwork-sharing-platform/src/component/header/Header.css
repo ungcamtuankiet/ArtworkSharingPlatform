@@ -1,0 +1,69 @@
+.nav{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0 40px;
+}
+
+.navbar .search{
+    height: 50px;
+    position: relative;
+    flex: 1;
+}
+
+.navbar .logo {
+    height: 100%;
+    flex: 1;
+    text-align: center;
+}
+
+.navbar .logo img{
+    width: 100px;
+    height: 100%;
+}
+
+.navbar .regisLogin{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    text-align: right;
+}
+
+.navbar .regisLogin button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.navbar .regisLogin button:hover{
+    color: blue;
+}
+
+.navbar .regisLogin img{
+    width: 30px;
+    height: 30px;
+}
+.sort {
+    margin-left: 10px;
+}
+
+.navbar .regisLogin .emailIcon {
+    width: 50px;
+    height: 30px;
+}
+
+
+.navbar .regisLogin .emailIcon a {
+    color: black;
+}

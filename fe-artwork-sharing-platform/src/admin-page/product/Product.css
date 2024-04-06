@@ -1,0 +1,76 @@
+.table-data-product {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 24px;
+  margin-top: 24px;
+  width: 100%;
+  color: var(--dark);
+}
+
+.table-data-product>div {
+  border-radius: 20px;
+  background: var(--light);
+  padding: 24px;
+  overflow-x: auto;
+}
+
+.table-data-product .head {
+  display: flex;
+  align-items: center;
+  grid-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.table-data-product .head h3 {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-data-product .order {
+  flex-grow: 1;
+  flex-basis: 500px;
+}
+
+.table-data-product .order table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.table-data-product .order table th {
+  padding-bottom: 12px;
+  font-size: 13px;
+  text-align: left;
+  border-bottom: 1px solid var(--grey);
+}
+
+.table-data-product .order table td {
+  padding: 16px 0;
+}
+
+.table-data-product .order table tr th,
+.table-data-product .order table tr td {
+  text-align: center;
+}
+
+.table-data-product .order table td img {
+  width: 50px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.table-data-product .head {
+  min-width: 420px;
+}
+
+.table-data-product .order table {
+  min-width: 420px;
+}
+
+.table-data-product .order table textarea{
+  width: 100px;
+  height: 55px;
+  border: none;
+  flex-direction: column;
+}

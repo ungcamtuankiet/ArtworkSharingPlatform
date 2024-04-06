@@ -1,0 +1,35 @@
+.favourite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.favourite .content {
+  width: 90%;
+}
+
+.favourite .content .createOfUser {
+  display: grid;
+  grid-template-columns: 0fr 2fr;
+  gap: 10px;
+}
+
+.favourite .content .commissions {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.favourite .content .commissions span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.favourite .content .createArt a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,195 @@
+/* .PaymentPage {
+	background-image: url("/public/assets/image/Land.png");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	position: relative;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+	color: black;
+} */
+
+.PaymentPage {
+	margin-top: 20px;
+}
+
+.container-payment {
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	background: transparent;
+	backdrop-filter: blur(100px);
+}
+
+.methods {
+	padding: 10px 0;
+}
+
+.methods div {
+	padding: 7px 20px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.methods div:hover {
+	box-shadow: 0 0 10px rgba(172, 255, 47, 0.196);
+}
+
+.methods div::after {
+	content: '';
+	display: inline-block;
+	color: greenyellow;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 4px 0 4px 4px;
+	border-left-color: var(--fondy-success);
+	margin-left: 10px;
+}
+
+.fa-solid {
+	margin-right: 10px;
+	font-size: 22px;
+	color: #aaa;
+}
+
+.center {
+	width: 50%;
+	background-color: white;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	height: 90vh;
+	flex: 2
+}
+
+.center a {
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right p {
+	font-weight: bold;
+}
+
+.right .price-info p {
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.details {
+	padding: 20px 20px;
+}
+
+.right {
+	background-color: #ccc;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	flex-direction: column;
+	flex: 1;
+}
+
+
+.card-details {
+	padding: 0 80px;
+	margin-top: 100px;
+}
+
+.card-details .c-number {
+	width: 100%;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	padding: 0 12px;
+	margin-top: 10px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.PaymentPage input {
+	border: none;
+	border-radius: 3px;
+	outline: none;
+}
+
+.c-details {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.card-details button {
+	width: 100%;;
+	border: none;
+	height: 50px;
+	border-radius: 30px;
+	margin-top: 100px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background-color: rgb(12, 72, 156);
+}
+
+.card-details button:hover {
+	background-color: rgb(47, 134, 255);
+	cursor: pointer;
+}
+
+.emailPay {
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	padding: 0 12px;
+}
+
+.emailPay input {
+	width: 100%;
+	padding: 12px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.details-img {
+	width: 100%;
+	height: 350px;
+}
+
+.details-img img {
+	width: auto;
+	height: 100%;
+	object-fit: scale-down;
+	object-position: 50%;
+}
+
+.total {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.center .name {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.center .pay button {
+	background: none;
+	font-weight: bold; /* Làm cho chữ đậm */
+	max-width: 120px;	cursor: pointer;
+}
+.paypal-logo {
+	width: 100%;
+
+}

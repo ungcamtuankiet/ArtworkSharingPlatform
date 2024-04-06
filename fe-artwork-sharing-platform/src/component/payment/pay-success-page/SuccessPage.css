@@ -1,0 +1,64 @@
+.pageSuccess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.pageSuccess .contain {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contain .logo {
+  width: auto;
+}
+
+.logoSuccess {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #86d1ee;
+}
+
+.logoSuccess img {
+  width: 55%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.contain .content {
+  background-color: white;
+}
+
+.content .title {
+  font-size: 35px;
+  color: #36e190;
+}
+
+.infoBill {
+  margin-top: 10px;
+}
+
+.infoBill img {
+  width: 100%;
+  object-fit: contain;
+  height: 300px;
+}
+
+.infoBill span {
+  font-weight: 600;
+}
+
+.buttonAccept{
+    border: none;
+    padding: 10px 15px;
+    margin: 0 15px 15px 0;
+    background-color: #36e190;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

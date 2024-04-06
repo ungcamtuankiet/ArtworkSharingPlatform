@@ -1,0 +1,78 @@
+.order-dropdown {
+  position: relative;
+  width: 50px;
+}
+
+.order {
+  cursor: pointer;
+}
+
+.badge {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -12px;
+  right: 7px;
+  background-color: red;
+  color: white !important;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-dropdown .dropdown {
+  background-color: white;
+  padding: 4px;
+  width: 425px;
+  position: absolute;
+  box-shadow: 0px -9px 20px 0 rgb(47 41 41 / 20%),
+    0 3px 3px 0 rgb(120 105 105 / 19%);
+  right: 10px;
+  border-radius: 5px;
+  max-height: 400px; /* Đặt chiều cao cố định */
+  overflow-y: auto;
+  z-index: 3;
+}
+
+.order-dropdown .dropdown li {
+  box-shadow: 0 3px 20px 0 rgb(221 209 209 / 20%),
+    0 3px 20px 0 rgb(120 105 105 / 19%);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+}
+
+#li2 {
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#li1 {
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#li1 span {
+  font-size: 20px;
+  display: inline;
+  color: #eaeaea;
+}
+
+#li2 #div1 {
+  width: 90%;
+  height: 85%;
+  margin-top: 10px;
+}
+
+.liOrder.selected {
+  opacity: 0.5; /* hoặc bất kỳ giá trị mờ nào bạn muốn */
+  transition: opacity 0.3s ease; /* thêm transition để làm mượt hơn */
+}

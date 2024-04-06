@@ -1,0 +1,24 @@
+.checkorder{
+    width: 90%;
+}
+
+.checkorder p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+.checkorder .title{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0;
+    border-bottom: 0.5px solid rgb(198, 186, 186);
+}
+
+.checkorder .text {
+    border-bottom: 0.5px solid rgb(198, 186, 186);
+}
+
+.checkorder .text p{
+    text-align: left;
+}

@@ -1,0 +1,145 @@
+.product-tumb {
+  display: flex;
+  justify-content: center;
+  /* Căn giữa theo chiều ngang */
+  align-items: center;
+  /* Căn giữa theo chiều dọc */
+  height: 400px;
+  /* Đặt chiều cao tùy ý */
+}
+
+.product-tumb img {
+  width: auto;
+  height: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.container-card {
+  background: var(--g-theme-primary);
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-icons {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.product-icons button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product-favorite {
+  width: 135px;
+}
+.product-download,
+.product-comment,
+.product-fullscreen,
+.product-favorite,
+.product-request {
+  display: flex;
+  align-items: center;
+  /* Canh nội dung theo trục dọc */
+  justify-content: center;
+  /* Canh nội dung sang bên trái */
+}
+.product-comment button,
+.product-fullscreen button,
+.product-favorite button,
+.product-request button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.product-comment button span,
+.product-download button span,
+.product-fullscreen button span,
+.product-favorite button span,
+.product-request span {
+  margin-left: 5px;
+}
+.product-download button {
+  background-color: #4caf50; /* Màu nền */
+  color: white; /* Màu chữ */
+  padding: 10px 20px; /* Độ lớn của nút */
+  font-size: 16px; /* Kích thước chữ */
+  border: none; /* Bỏ viền */
+  border-radius: 5px; /* Bo tròn các góc */
+  cursor: pointer; /* Đổi con trỏ chuột khi di chuyển qua nút */
+  transition: background-color 0.3s; /* Hiệu ứng khi di chuột qua nút */
+}
+
+.product-download button:hover {
+  background-color: #45a049; /* Màu nền khi di chuột qua */
+}
+.product-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-info .cateDes{
+  width: 70%;
+  margin-top: 15px;
+}
+
+.product-info .cateDes .category{
+  height: auto;
+}
+
+.product-info .cateDes .category p{
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.product-info .cateDes .category span{
+  border: 0.5px solid rgb(192, 184, 184);
+  padding: 10px 15px;
+  background-color: transparent;
+  border-radius: 20px;
+}
+/* .author {
+  width: 50x; Độ rộng của ảnh đại diện
+  height: 50px; Độ cao của ảnh đại diện
+  border-radius: 50%; Bo tròn các góc để tạo hình tròn
+  margin-right: 10px; Khoảng cách giữa ảnh đại diện và thông tin tác giả
+} */
+
+.author img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%; /* Bo tròn các góc để tạo hình tròn */
+}
+
+.product-info .artist {
+  margin-right: auto;
+}
+
+.product-info .public i {
+  cursor: pointer;
+}
+
+.product-info .public i:hover {
+  color: #7579ff;
+}
+

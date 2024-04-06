@@ -1,0 +1,85 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 400ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    width: 35%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup .iconclose {
+    text-align: right;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .popup .popupInput {
+    border: 0.5px solid #c9cacf;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .popup .popupInput input {
+    border: none;
+    width: 90%;
+    margin: 5px 0;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .popupDetail .popupButton {
+    text-align: right;
+    margin: 20px;
+  }
+  
+  .popupDetail .popupButton button {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f7616d;
+    color: white;
+    border: none;
+    width: 91px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .popupDetail .popupButton button:hover {
+    background-color: #ff8795; 
+  }
+  
+  .popupDetail .contentDelete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iconDelete{
+    color: #7579ff;
+  }

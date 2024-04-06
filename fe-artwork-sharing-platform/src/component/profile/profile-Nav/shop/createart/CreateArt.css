@@ -1,0 +1,115 @@
+.createart {
+  height: 365px;
+}
+
+.createart .cartcreate {
+  text-align: center;
+  color: black;
+}
+
+.createart .createArt {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 4px 2px 2px rgba(0, 0, 0, 0.1),
+    3px 6px 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+.createart .cartcreate span {
+  font-weight: bold;
+}
+
+.createart .cartcreate p {
+  width: 195px;
+  font-size: 14px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 732px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .iconclose {
+  display: flex;
+  justify-content: space-between;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 0.3px solid rgb(199, 177, 177);
+  margin: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+.popup .popupInput {
+  border: 0.5px solid #c9cacf;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup .popupImage{
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 310px;
+}
+
+.popup .imgNew {
+  height: 230px;
+  border-radius: 10px;
+  border: 2px dashed #1475cf;
+  width: 100%;
+}
+
+.popup .popupInput input {
+  border: none;
+  width: 90%;
+  margin: 5px 0;
+  box-shadow: none;
+  outline: none;
+}
+
+.popup .popupButtonCreate{
+  text-align: right;
+}
+
+
+.popup .popupButtonCreate button{
+  width: 90px;
+  height: 40px;
+  font-weight: bold;
+  background-color: #00f4eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

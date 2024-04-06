@@ -1,0 +1,90 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .user-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .followers {
+    margin-bottom: 20px;
+  }
+  
+  .profile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-nav li {
+    margin-right: 20px;
+  }
+  
+  .profile-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .profile-nav a:hover {
+    color: #007bff;
+  }
+  
+  .about-info {
+    margin-top: 20px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .about-info p {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  /* Chỉnh CSS cho phần chỉnh sửa thông tin */
+  .edit-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background-color: #0056b3;
+  }
+  

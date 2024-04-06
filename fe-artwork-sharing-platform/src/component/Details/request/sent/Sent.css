@@ -1,0 +1,28 @@
+.liSent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin: 0 10px 0 10px;
+}
+
+.liSent #div1 {
+  width: 90%;
+  height: 85%;
+  margin-top: 5px;
+}
+
+.liSent img {
+  width: 32px;
+  height: 32px;
+}
+
+.liSent span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.liSent section p {
+  color: rgb(168, 161, 161);
+  font-weight: 600;
+}

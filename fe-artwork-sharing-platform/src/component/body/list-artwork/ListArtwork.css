@@ -1,0 +1,11 @@
+.scroll-container {
+  width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  transition: overflow-x 0.3s ease;
+}
+
+.scroll-container:hover {
+  overflow-x: auto;
+}
+

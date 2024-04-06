@@ -1,0 +1,135 @@
+.request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+}
+
+.request .request-content {
+  width: 95%;
+  background-color: white;
+  box-shadow: 0 3px 20px 0 rgb(221 209 209 / 20%),
+    0 3px 20px 0 rgb(120 105 105 / 19%);
+}
+
+.request .request-content .content-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.content-title span {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.content-title button {
+  height: 46px;
+  width: 120px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.content-title button:hover {
+  background-color: black;
+  color: white;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 70vh;
+  margin-top: 50px;
+}
+
+.content-box .box-sideBar {
+  height: 100%;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-sideBar button {
+  text-align: center;
+  width: 120px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.box-sideBar button:active,
+.box-sideBar button:focus {
+  background-color: rgb(201, 234, 251);
+  font-weight: bold;
+}
+
+.content-box .box-request {
+  height: 100%;
+  width: 1080px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.box-request ul {
+  width: 100%;
+  margin: 0;
+  max-height: 430px; /* Đặt chiều cao cố định */
+  overflow-y: auto;
+  box-shadow: 0 3px 20px 0 rgb(221 209 209 / 20%),
+    0 3px 20px 0 rgb(120 105 105 / 19%);
+}
+
+.box-request ul li {
+  box-shadow: 0 3px 20px 0 rgb(221 209 209 / 20%),
+    0 3px 20px 0 rgb(120 105 105 / 19%);
+  margin: 15px;
+}
+
+.box-request ul #li1 {
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-request ul #li1 span {
+  font-size: 32px;
+  display: inline;
+  color: #eaeaea;
+}
+
+.boxRequest-notMail {
+  min-height: 450px;
+  width: 100%;
+  box-shadow: 0 3px 20px 0 rgb(221 209 209 / 20%),
+    0 3px 20px 0 rgb(120 105 105 / 19%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxRequest-mail {
+  width: 100%;
+  box-shadow: 0 3px 20px 0 rgb(221 209 209 / 20%),
+    0 3px 20px 0 rgb(120 105 105 / 19%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxRequest-mail textarea {
+  resize: vertical;
+  border: none;
+  outline: none;
+  height: 177px;
+  margin-top: 15px;
+}
